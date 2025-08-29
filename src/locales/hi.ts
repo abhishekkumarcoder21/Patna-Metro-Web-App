@@ -1,0 +1,215 @@
+export const hi = {
+  // App name
+  patnaMetro: "पटना मेट्रो",
+  
+  // Navigation
+  home: "होम",
+  liveTrainStatus: "लाइव ट्रेन स्थिति",
+  smartTicketing: "स्मार्ट टिकटिंग",
+  crowdManagement: "भीड़ प्रबंधन",
+  journeyPlanner: "यात्रा योजनाकार",
+  lostFound: "खोया पाया",
+  helpline: "हेल्पलाइन",
+  profile: "मेरी प्रोफाइल",
+  adminPanel: "एडमिन पैनल",
+  
+  // Auth
+  login: "लॉगिन",
+  signup: "साइन अप",
+  logout: "लॉगआउट",
+  email: "ईमेल",
+  password: "पासवर्ड",
+  name: "नाम",
+  confirmPassword: "पासवर्ड की पुष्टि करें",
+  forgotPassword: "पासवर्ड भूल गए?",
+  dontHaveAccount: "खाता नहीं है?",
+  alreadyHaveAccount: "पहले से ही खाता है?",
+  signupNow: "अभी साइन अप करें",
+  loginNow: "अभी लॉगिन करें",
+  
+  // Homepage
+  welcomeHeading: "पटना मेट्रो में आपका स्वागत है",
+  welcomeSubheading: "तेज़, सुरक्षित और विश्वसनीय शहरी परिवहन",
+  planJourney: "यात्रा की योजना बनाएं",
+  buyTicket: "टिकट खरीदें",
+  viewLiveStatus: "लाइव स्थिति देखें",
+  fromStation: "किस स्टेशन से",
+  toStation: "किस स्टेशन तक",
+  departureTime: "प्रस्थान समय",
+  searchRoutes: "मार्ग खोजें",
+  quickAccess: "त्वरित पहुंच",
+  latestUpdates: "नवीनतम अपडेट",
+  exploreMetro: "मेट्रो का अन्वेषण करें",
+  downloadApp: "ऐप डाउनलोड करें",
+  metroFeatures: "मेट्रो सुविधाएं",
+  
+  // Live Train Status
+  liveTrainStatusHeading: "लाइव ट्रेन स्थिति",
+  liveTrainStatusSubheading: "ट्रेन के स्थान और समय-सारणी के वास्तविक समय अपडेट",
+  selectLine: "लाइन चुनें",
+  refreshStatus: "स्थिति रीफ्रेश करें",
+  stationName: "स्टेशन का नाम",
+  nextTrain: "अगली ट्रेन",
+  platform: "प्लेटफॉर्म",
+  status: "स्थिति",
+  crowdLevel: "भीड़ का स्तर",
+  viewMap: "मानचित्र देखें",
+  metroMap: "मेट्रो मानचित्र",
+  
+  // Smart Ticketing
+  smartTicketingHeading: "स्मार्ट टिकटिंग",
+  smartTicketingSubheading: "त्वरित और आसान डिजिटल टिकटिंग समाधान",
+  buyNewTicket: "नया टिकट खरीदें",
+  rechargeCard: "कार्ड रिचार्ज करें",
+  viewHistory: "इतिहास देखें",
+  ticketType: "टिकट प्रकार",
+  singleJourney: "एकल यात्रा",
+  returnJourney: "वापसी यात्रा",
+  groupTicket: "समूह टिकट",
+  tourists: "पर्यटक",
+  addMoney: "पैसा जोड़ें",
+  cardBalance: "कार्ड बैलेंस",
+  ticketPrice: "टिकट मूल्य",
+  payNow: "अभी भुगतान करें",
+  quickPurchase: "त्वरित खरीद",
+  
+  // Crowd Management
+  crowdManagementHeading: "भीड़ प्रबंधन",
+  crowdManagementSubheading: "आरामदायक यात्रा के लिए लाइव भीड़ घनत्व जानकारी",
+  stationCrowdLevels: "स्टेशन भीड़ स्तर",
+  trainCrowdLevels: "ट्रेन भीड़ स्तर",
+  peakHours: "व्यस्त घंटे",
+  lowCrowd: "कम भीड़",
+  moderateCrowd: "मध्यम भीड़",
+  highCrowd: "अधिक भीड़",
+  bestTravelTimes: "यात्रा के लिए सर्वोत्तम समय",
+  leastCrowdedCoaches: "सबसे कम भीड़ वाले डिब्बे",
+  crowdPredictions: "भीड़ की भविष्यवाणी",
+  
+  // Journey Planner
+  journeyPlannerHeading: "यात्रा योजनाकार",
+  journeyPlannerSubheading: "आसानी से अपनी मेट्रो यात्रा की योजना बनाएं",
+  routeOptions: "मार्ग विकल्प",
+  estimatedTime: "अनुमानित समय",
+  estimatedFare: "अनुमानित किराया",
+  numberOfTransfers: "ट्रांसफर की संख्या",
+  walkingDistance: "पैदल चलने की दूरी",
+  startJourney: "यात्रा शुरू करें",
+  saveRoute: "मार्ग सहेजें",
+  optimalRoute: "इष्टतम मार्ग",
+  fastestRoute: "सबसे तेज़ मार्ग",
+  leastTransfers: "न्यूनतम ट्रांसफर",
+  
+  // Lost & Found
+  lostFoundHeading: "खोया पाया",
+  lostFoundSubheading: "खोई हुई वस्तुओं की रिपोर्ट करें या दूसरों की खोई वस्तुएं खोजें",
+  reportLostItem: "खोई हुई वस्तु की रिपोर्ट करें",
+  findItem: "वस्तु खोजें",
+  itemDescription: "वस्तु का विवरण",
+  dateOfLoss: "खोने की तारीख",
+  locationOfLoss: "खोने का स्थान",
+  contactDetails: "संपर्क विवरण",
+  submitReport: "रिपोर्ट जमा करें",
+  lostItemsList: "खोई हुई वस्तुओं की सूची",
+  foundItemsList: "मिली हुई वस्तुओं की सूची",
+  
+  // Helpline
+  helplineHeading: "हेल्पलाइन और आपातकाल",
+  helplineSubheading: "किसी भी मेट्रो संबंधित समस्या के लिए सहायता प्राप्त करें",
+  emergencyContacts: "आपातकालीन संपर्क",
+  customerSupport: "ग्राहक सहायता",
+  securityHelpline: "सुरक्षा हेल्पलाइन",
+  technicalSupport: "तकनीकी सहायता",
+  lostFoundContact: "खोया पाया संपर्क",
+  feedbackComplaints: "प्रतिक्रिया और शिकायतें",
+  callHelpline: "हेल्पलाइन पर कॉल करें",
+  chatWithUs: "हमसे चैट करें",
+  
+  // Profile
+  profileHeading: "मेरी प्रोफाइल",
+  travelHistory: "यात्रा इतिहास",
+  savedRoutes: "सहेजे गए मार्ग",
+  metroPoints: "मेट्रो पॉइंट्स",
+  accountSettings: "खाता सेटिंग्स",
+  editProfile: "प्रोफ़ाइल संपादित करें",
+  changePassword: "पासवर्ड बदलें",
+  deleteAccount: "खाता हटाएं",
+  earnedBadges: "अर्जित बैज",
+  metroPointsHistory: "मेट्रो पॉइंट्स इतिहास",
+  
+  // Admin Panel
+  adminDashboard: "एडमिन डैशबोर्ड",
+  userManagement: "उपयोगकर्ता प्रबंधन",
+  stationManagement: "स्टेशन प्रबंधन",
+  trainManagement: "ट्रेन प्रबंधन",
+  reportAnalytics: "रिपोर्ट और विश्लेषण",
+  systemSettings: "सिस्टम सेटिंग्स",
+  
+  // Footer
+  footerDescription: "पटना मेट्रो पटना के लोगों के लिए तेज़, सुरक्षित और विश्वसनीय शहरी परिवहन प्रदान करने के लिए समर्पित है। हमारा मिशन विश्व स्तरीय बुनियादी ढांचे के साथ शहरी गतिशीलता को बदलना है।",
+  quickLinks: "त्वरित लिंक",
+  supportLinks: "सहायता",
+  contactUs: "संपर्क करें",
+  metroHeadquartersAddress: "पटना मेट्रो रेल कॉर्पोरेशन, जे-ब्लॉक, बेली रोड, पटना - 800001, बिहार, भारत",
+  termsConditions: "नियम और शर्तें",
+  privacyPolicy: "गोपनीयता नीति",
+  faq: "अक्सर पूछे जाने वाले प्रश्न",
+  accessibility: "पहुंच",
+  allRightsReserved: "सर्वाधिकार सुरक्षित",
+  
+  // UI components
+  search: "खोजें",
+  filter: "फ़िल्टर",
+  sort: "क्रमबद्ध करें",
+  apply: "लागू करें",
+  cancel: "रद्द करें",
+  save: "सहेजें",
+  edit: "संपादित करें",
+  delete: "हटाएं",
+  confirm: "पुष्टि करें",
+  loading: "लोड हो रहा है...",
+  noResults: "कोई परिणाम नहीं मिला",
+  
+  // Accessibility
+  changeLanguage: "भाषा बदलें",
+  darkMode: "डार्क मोड",
+  lightMode: "लाइट मोड",
+  highContrastMode: "उच्च कंट्रास्ट मोड",
+  normalContrastMode: "सामान्य कंट्रास्ट मोड",
+  
+  // Notifications
+  notificationSuccess: "सफलता",
+  notificationError: "त्रुटि",
+  notificationWarning: "चेतावनी",
+  notificationInfo: "जानकारी",
+  
+  // Error messages
+  errorGeneric: "कुछ गलत हो गया। कृपया पुन: प्रयास करें।",
+  errorNetwork: "नेटवर्क त्रुटि। कृपया अपने कनेक्शन की जांच करें।",
+  errorInvalidCredentials: "अमान्य ईमेल या पासवर्ड।",
+  errorRequired: "यह फ़ील्ड आवश्यक है।",
+  errorPasswordMismatch: "पासवर्ड मेल नहीं खाते।",
+  errorEmailFormat: "अमान्य ईमेल प्रारूप।",
+  
+  // Success messages
+  successTicketPurchase: "टिकट सफलतापूर्वक खरीदा गया!",
+  successCardRecharge: "कार्ड सफलतापूर्वक रिचार्ज किया गया!",
+  successProfileUpdate: "प्रोफ़ाइल सफलतापूर्वक अपडेट की गई!",
+  successPasswordChange: "पासवर्ड सफलतापूर्वक बदला गया!",
+  successReportSubmit: "रिपोर्ट सफलतापूर्वक जमा की गई!",
+  
+  // Statuses
+  statusOnTime: "समय पर",
+  statusDelayed: "देरी",
+  statusCancelled: "रद्द",
+  statusArriving: "आ रही है",
+  statusDeparted: "प्रस्थान कर चुकी है",
+  
+  // Misc
+  minutes: "मिनट",
+  hours: "घंटे",
+  km: "किमी",
+  rs: "₹",
+  today: "आज",
+  tomorrow: "कल"
+};

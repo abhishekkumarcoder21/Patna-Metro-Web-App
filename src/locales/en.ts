@@ -1,0 +1,215 @@
+export const en = {
+  // App name
+  patnaMetro: "Patna Metro",
+  
+  // Navigation
+  home: "Home",
+  liveTrainStatus: "Live Train Status",
+  smartTicketing: "Smart Ticketing",
+  crowdManagement: "Crowd Management",
+  journeyPlanner: "Journey Planner",
+  lostFound: "Lost & Found",
+  helpline: "Helpline",
+  profile: "My Profile",
+  adminPanel: "Admin Panel",
+  
+  // Auth
+  login: "Login",
+  signup: "Sign Up",
+  logout: "Logout",
+  email: "Email",
+  password: "Password",
+  name: "Name",
+  confirmPassword: "Confirm Password",
+  forgotPassword: "Forgot Password?",
+  dontHaveAccount: "Don't have an account?",
+  alreadyHaveAccount: "Already have an account?",
+  signupNow: "Sign up now",
+  loginNow: "Login now",
+  
+  // Homepage
+  welcomeHeading: "Welcome to Patna Metro",
+  welcomeSubheading: "Fast, Safe, and Reliable Urban Transit",
+  planJourney: "Plan Journey",
+  buyTicket: "Buy Ticket",
+  viewLiveStatus: "View Live Status",
+  fromStation: "From Station",
+  toStation: "To Station",
+  departureTime: "Departure Time",
+  searchRoutes: "Search Routes",
+  quickAccess: "Quick Access",
+  latestUpdates: "Latest Updates",
+  exploreMetro: "Explore Metro",
+  downloadApp: "Download App",
+  metroFeatures: "Metro Features",
+  
+  // Live Train Status
+  liveTrainStatusHeading: "Live Train Status",
+  liveTrainStatusSubheading: "Real-time updates on train locations and schedules",
+  selectLine: "Select Line",
+  refreshStatus: "Refresh Status",
+  stationName: "Station Name",
+  nextTrain: "Next Train",
+  platform: "Platform",
+  status: "Status",
+  crowdLevel: "Crowd Level",
+  viewMap: "View Map",
+  metroMap: "Metro Map",
+  
+  // Smart Ticketing
+  smartTicketingHeading: "Smart Ticketing",
+  smartTicketingSubheading: "Quick and easy digital ticketing solutions",
+  buyNewTicket: "Buy New Ticket",
+  rechargeCard: "Recharge Card",
+  viewHistory: "View History",
+  ticketType: "Ticket Type",
+  singleJourney: "Single Journey",
+  returnJourney: "Return Journey",
+  groupTicket: "Group Ticket",
+  tourists: "Tourists",
+  addMoney: "Add Money",
+  cardBalance: "Card Balance",
+  ticketPrice: "Ticket Price",
+  payNow: "Pay Now",
+  quickPurchase: "Quick Purchase",
+  
+  // Crowd Management
+  crowdManagementHeading: "Crowd Management",
+  crowdManagementSubheading: "Live crowd density information for comfortable travel",
+  stationCrowdLevels: "Station Crowd Levels",
+  trainCrowdLevels: "Train Crowd Levels",
+  peakHours: "Peak Hours",
+  lowCrowd: "Low Crowd",
+  moderateCrowd: "Moderate Crowd",
+  highCrowd: "High Crowd",
+  bestTravelTimes: "Best Travel Times",
+  leastCrowdedCoaches: "Least Crowded Coaches",
+  crowdPredictions: "Crowd Predictions",
+  
+  // Journey Planner
+  journeyPlannerHeading: "Journey Planner",
+  journeyPlannerSubheading: "Plan your metro journey with ease",
+  routeOptions: "Route Options",
+  estimatedTime: "Estimated Time",
+  estimatedFare: "Estimated Fare",
+  numberOfTransfers: "Number of Transfers",
+  walkingDistance: "Walking Distance",
+  startJourney: "Start Journey",
+  saveRoute: "Save Route",
+  optimalRoute: "Optimal Route",
+  fastestRoute: "Fastest Route",
+  leastTransfers: "Least Transfers",
+  
+  // Lost & Found
+  lostFoundHeading: "Lost & Found",
+  lostFoundSubheading: "Report lost items or find what others have lost",
+  reportLostItem: "Report Lost Item",
+  findItem: "Find Item",
+  itemDescription: "Item Description",
+  dateOfLoss: "Date of Loss",
+  locationOfLoss: "Location of Loss",
+  contactDetails: "Contact Details",
+  submitReport: "Submit Report",
+  lostItemsList: "Lost Items List",
+  foundItemsList: "Found Items List",
+  
+  // Helpline
+  helplineHeading: "Helpline & Emergency",
+  helplineSubheading: "Get assistance for any metro-related issues",
+  emergencyContacts: "Emergency Contacts",
+  customerSupport: "Customer Support",
+  securityHelpline: "Security Helpline",
+  technicalSupport: "Technical Support",
+  lostFoundContact: "Lost & Found Contact",
+  feedbackComplaints: "Feedback & Complaints",
+  callHelpline: "Call Helpline",
+  chatWithUs: "Chat With Us",
+  
+  // Profile
+  profileHeading: "My Profile",
+  travelHistory: "Travel History",
+  savedRoutes: "Saved Routes",
+  metroPoints: "Metro Points",
+  accountSettings: "Account Settings",
+  editProfile: "Edit Profile",
+  changePassword: "Change Password",
+  deleteAccount: "Delete Account",
+  earnedBadges: "Earned Badges",
+  metroPointsHistory: "Metro Points History",
+  
+  // Admin Panel
+  adminDashboard: "Admin Dashboard",
+  userManagement: "User Management",
+  stationManagement: "Station Management",
+  trainManagement: "Train Management",
+  reportAnalytics: "Report & Analytics",
+  systemSettings: "System Settings",
+  
+  // Footer
+  footerDescription: "Patna Metro is dedicated to providing fast, safe and reliable urban transit for the people of Patna. Our mission is to transform urban mobility with world-class infrastructure.",
+  quickLinks: "Quick Links",
+  supportLinks: "Support",
+  contactUs: "Contact Us",
+  metroHeadquartersAddress: "Patna Metro Rail Corporation, J-Block, Bailey Road, Patna - 800001, Bihar, India",
+  termsConditions: "Terms & Conditions",
+  privacyPolicy: "Privacy Policy",
+  faq: "FAQ",
+  accessibility: "Accessibility",
+  allRightsReserved: "All Rights Reserved",
+  
+  // UI components
+  search: "Search",
+  filter: "Filter",
+  sort: "Sort",
+  apply: "Apply",
+  cancel: "Cancel",
+  save: "Save",
+  edit: "Edit",
+  delete: "Delete",
+  confirm: "Confirm",
+  loading: "Loading...",
+  noResults: "No Results Found",
+  
+  // Accessibility
+  changeLanguage: "Change Language",
+  darkMode: "Dark Mode",
+  lightMode: "Light Mode",
+  highContrastMode: "High Contrast Mode",
+  normalContrastMode: "Normal Contrast Mode",
+  
+  // Notifications
+  notificationSuccess: "Success",
+  notificationError: "Error",
+  notificationWarning: "Warning",
+  notificationInfo: "Information",
+  
+  // Error messages
+  errorGeneric: "Something went wrong. Please try again.",
+  errorNetwork: "Network error. Please check your connection.",
+  errorInvalidCredentials: "Invalid email or password.",
+  errorRequired: "This field is required.",
+  errorPasswordMismatch: "Passwords do not match.",
+  errorEmailFormat: "Invalid email format.",
+  
+  // Success messages
+  successTicketPurchase: "Ticket purchased successfully!",
+  successCardRecharge: "Card recharged successfully!",
+  successProfileUpdate: "Profile updated successfully!",
+  successPasswordChange: "Password changed successfully!",
+  successReportSubmit: "Report submitted successfully!",
+  
+  // Statuses
+  statusOnTime: "On Time",
+  statusDelayed: "Delayed",
+  statusCancelled: "Cancelled",
+  statusArriving: "Arriving",
+  statusDeparted: "Departed",
+  
+  // Misc
+  minutes: "minutes",
+  hours: "hours",
+  km: "km",
+  rs: "₹",
+  today: "Today",
+  tomorrow: "Tomorrow"
+};
